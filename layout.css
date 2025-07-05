@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+
+  .container.reverse {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+
+  .text-block,
+  .image-block {
+    width: 50% !important;
+  }
+}
