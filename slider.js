@@ -41,7 +41,7 @@ function initSlider(slider, slides, dots, prev, next) {
   setInterval(() => {
     currentIndex = (currentIndex + 1) % slides.length;
     updateSlider();
-  }, 6000);
+  }, 2000);
 
   updateSlider();
 }
